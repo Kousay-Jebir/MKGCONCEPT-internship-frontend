@@ -22,6 +22,10 @@ const theme = {
             secondary: '#252B42',
             accent1: '#2091F9',
             accent2:'#FFFFFF'
+        },
+        neutral: {
+            light: '#F4F4F4',
+            dark: '#E8E8E8'
         }
     }
 }

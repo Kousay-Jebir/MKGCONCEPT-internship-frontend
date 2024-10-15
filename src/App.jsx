@@ -5,6 +5,8 @@ import OrderButton from "./components/pricing/OrderButton"
 import ContactButton from "./components/contact/ContactButton"
 import HeroButton from "./components/hero/HeroButton"
 import Hero from "./components/hero/Hero"
+import NewsLetterForm from "./components/newsletter/NewsletterForm"
+import Newsletter from "./components/newsletter/Newsletter"
 function App() {
 
   return (
@@ -14,6 +16,7 @@ function App() {
     <ContactButton>Send</ContactButton>
     <HeroButton>Try For Free</HeroButton>
     <Hero></Hero>
+    <Newsletter/>
     </>
   )
 }
