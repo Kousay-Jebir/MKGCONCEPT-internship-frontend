@@ -7,6 +7,7 @@ import HeroButton from "./components/hero/HeroButton"
 import Hero from "./components/hero/Hero"
 import NewsLetterForm from "./components/newsletter/NewsletterForm"
 import Newsletter from "./components/newsletter/Newsletter"
+import ContactForm from "./components/contact/ContactForm"
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
     <HeroButton>Try For Free</HeroButton>
     <Hero></Hero>
     <Newsletter/>
+    <ContactForm></ContactForm>
     </>
   )
 }

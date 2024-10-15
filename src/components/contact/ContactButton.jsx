@@ -5,6 +5,7 @@ export default function ContactButton({children,clickHandler}){
         <Button styles={{
             paddingInline:'1.75em',
             paddingBlock:'0.7em',
-        }} clickHandler={clickHandler}>{children}</Button>
+            display:'block'
+        }} clickHandler={clickHandler}>Send</Button>
     )
 }
