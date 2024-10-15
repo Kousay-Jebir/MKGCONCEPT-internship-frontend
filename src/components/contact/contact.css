@@ -1,0 +1,28 @@
+.contact-info-container {
+    display: flex; /* One row for desktop */
+    justify-content: center; /* Center items horizontally */
+    gap: 2em; /* Space between items */
+}
+
+.contact-info-item {
+    display: flex;
+    flex-direction: column; /* Icon on top, text below */
+    align-items: center; /* Center align the text */
+    text-align: center; /* Center text for desktop */
+}
+
+.contact-icon {
+    margin-bottom: 0.5em; /* Space between icon and text */
+}
+
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+    .contact-info-container {
+        flex-direction: column; /* Stack items for mobile */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .contact-info-item {
+        text-align: left; /* Align text to the left for mobile */
+        align-items: flex-start; /* Align icon and text to the left */
+    }
+}

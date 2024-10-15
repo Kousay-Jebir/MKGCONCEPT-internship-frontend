@@ -11,6 +11,8 @@ import ContactForm from "./components/contact/ContactForm"
 import Price from "./components/pricing/Price"
 import PricingCard from "./components/pricing/PricingCard"
 import Pricing from "./components/pricing/Pricing"
+import Contact from "./components/contact/Contact"
+import ContactInformation from "./components/contact/ContactInformation"
 function App() {
 
   return (
@@ -22,7 +24,8 @@ function App() {
     <Hero></Hero>
     <Newsletter/>
     <ContactForm></ContactForm> */}
-    <Pricing />
+    <Contact />
+    <ContactInformation />
     </>
   )
 }
