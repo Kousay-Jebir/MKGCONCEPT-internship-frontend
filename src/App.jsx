@@ -8,17 +8,21 @@ import Hero from "./components/hero/Hero"
 import NewsLetterForm from "./components/newsletter/NewsletterForm"
 import Newsletter from "./components/newsletter/Newsletter"
 import ContactForm from "./components/contact/ContactForm"
+import Price from "./components/pricing/Price"
+import PricingCard from "./components/pricing/PricingCard"
+import Pricing from "./components/pricing/Pricing"
 function App() {
 
   return (
     <>
-    <Feature title={'dzidiqdqizdijoIi'}/>
+   {/*  <Feature title={'dzidiqdqizdijoIi'}/>
     <OrderButton>I'm button</OrderButton>
     <ContactButton>Send</ContactButton>
     <HeroButton>Try For Free</HeroButton>
     <Hero></Hero>
     <Newsletter/>
-    <ContactForm></ContactForm>
+    <ContactForm></ContactForm> */}
+    <Pricing />
     </>
   )
 }

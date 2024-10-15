@@ -1,10 +1,10 @@
 import Button from "../utility/Button";
 
-export default function OrderButton({children,clickHandler}){
+export default function OrderButton({children,clickHandler,invert=false}){
     return(
         <Button styles={{
-            paddingInline:'2em',
+            paddingInline:'4em',
             paddingBlock:'0.7em',
-        }} clickHandler={clickHandler}>{children}</Button>
+        }} clickHandler={clickHandler} invert={invert}>{children}</Button>
     )
 }

@@ -25,7 +25,8 @@ const theme = {
         },
         neutral: {
             light: '#F4F4F4',
-            dark: '#E8E8E8'
+            dark: '#E8E8E8',
+            main:'#DEDEDE'
         }
     }
 }

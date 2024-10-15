@@ -1,7 +1,7 @@
 import theme from "../../theme";
 import Box from "../utility/Box";
 import HeroButton from "./HeroButton";
-import computerScreenImage from "/src/assets/screen.png"
+import computerScreenImage from "/src/assets/laptop.svg"
 
 export default function Hero(){
     return(

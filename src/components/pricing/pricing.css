@@ -1,0 +1,17 @@
+.price-tag *,.price-card * {
+    margin: 0;
+    padding: 0;
+}
+
+.price-tag h1 {
+    font-size: 3em;
+}
+
+.price-tag  div {
+    align-self: center ;
+    padding-bottom: 0.2em;
+}
+
+.price-header * {
+    color: white;
+}
