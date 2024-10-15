@@ -26,6 +26,7 @@ function App() {
     <ContactForm></ContactForm> */}
     <Contact />
     <ContactInformation />
+    <Newsletter />
     </>
   )
 }
