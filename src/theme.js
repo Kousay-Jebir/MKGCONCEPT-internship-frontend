@@ -7,6 +7,7 @@ const theme = {
         fontWeight: {
             regular: 400,
             bold: 700,
+            bolder:900
 
         }
     },
