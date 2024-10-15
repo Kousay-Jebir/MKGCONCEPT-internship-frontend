@@ -14,6 +14,7 @@ import Pricing from "./components/pricing/Pricing"
 import Contact from "./components/contact/Contact"
 import ContactInformation from "./components/contact/ContactInformation"
 import FeatureVideo from "./components/features/FeatureVideo"
+import Header from "./components/header/Header"
 function App() {
 
   return (
@@ -28,7 +29,7 @@ function App() {
     {/* <Contact />
     <ContactInformation />
     <Newsletter /> */}
-    <Feature/>
+    <Header />
     </>
   )
 }
