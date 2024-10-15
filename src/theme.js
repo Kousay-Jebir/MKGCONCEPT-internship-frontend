@@ -20,7 +20,8 @@ const theme = {
         text: {
             primary: '#374754',
             secondary: '#252B42',
-            accent: '#2091F9'
+            accent1: '#2091F9',
+            accent2:'#FFFFFF'
         }
     }
 }
