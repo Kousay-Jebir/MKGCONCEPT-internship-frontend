@@ -13,6 +13,7 @@ import PricingCard from "./components/pricing/PricingCard"
 import Pricing from "./components/pricing/Pricing"
 import Contact from "./components/contact/Contact"
 import ContactInformation from "./components/contact/ContactInformation"
+import FeatureVideo from "./components/features/FeatureVideo"
 function App() {
 
   return (
