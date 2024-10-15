@@ -19,17 +19,12 @@ function App() {
 
   return (
     <>
-   {/*  <Feature title={'dzidiqdqizdijoIi'}/>
-    <OrderButton>I'm button</OrderButton>
-    <ContactButton>Send</ContactButton>
-    <HeroButton>Try For Free</HeroButton>
-    <Hero></Hero>
-    <Newsletter/>
-    <ContactForm></ContactForm> */}
-    {/* <Contact />
-    <ContactInformation />
-    <Newsletter /> */}
     <Header />
+    <Feature />
+    <Hero />
+    <Newsletter />
+    <Pricing />
+    <Contact />
     </>
   )
 }

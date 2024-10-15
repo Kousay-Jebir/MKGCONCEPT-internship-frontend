@@ -21,6 +21,7 @@ export default function Hero(){
     return(
         <Box styles={{
             display: isMobile? 'block':'flex',
+            justifyContent:'center'
         }}>
             <div style={{textAlign: isMobile? 'center' : 'initial'}}>
                 <h2 style={{fontWeight:theme.typography.fontWeight.regular}}>Lorem, ipsum dolor.</h2>

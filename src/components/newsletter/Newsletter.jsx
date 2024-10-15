@@ -29,8 +29,10 @@ export default function Newsletter(){
     return(
         <div style={{
             display:'flex',
-            alignItems:'center'
+            alignItems:'center',
+            justifyContent:'center'
         }}>
+            { isMobile? null :<div><img style={{width:'75%',height:'75%'}} src={illustration} alt="" /></div>}
             <div>
                 <div>
                     <h3>At your fingertips</h3>
@@ -44,7 +46,7 @@ export default function Newsletter(){
                     <NewsLetterForm />
                 </div>
             </div>
-            { isMobile? null :<div><img style={{width:'75%',height:'75%'}} src={illustration} alt="" /></div>}
+
         </div>
     )
 }
