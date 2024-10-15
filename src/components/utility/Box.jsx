@@ -1,4 +1,4 @@
-export default function Box({ children, styles, element = 'div' }) {
+export default function Box({ children, styles={}, element = 'div' }) {
     const Element = element;
 
     return (
