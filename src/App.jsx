@@ -24,9 +24,10 @@ function App() {
     <Hero></Hero>
     <Newsletter/>
     <ContactForm></ContactForm> */}
-    <Contact />
+    {/* <Contact />
     <ContactInformation />
-    <Newsletter />
+    <Newsletter /> */}
+    <Hero />
     </>
   )
 }
