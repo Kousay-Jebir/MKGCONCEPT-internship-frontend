@@ -1,4 +1,4 @@
-import Feature from "./components/FeatureCard"
+import Feature from "./components/features/Feature"
 import "./app.css"
 import Button from "./components/utility/Button"
 import OrderButton from "./components/pricing/OrderButton"
@@ -27,7 +27,7 @@ function App() {
     {/* <Contact />
     <ContactInformation />
     <Newsletter /> */}
-    <Hero />
+    <Feature/>
     </>
   )
 }
