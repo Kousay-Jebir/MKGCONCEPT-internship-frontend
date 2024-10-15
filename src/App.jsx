@@ -1,8 +1,10 @@
+import Feature from "./components/Feature"
+import "./app.css"
 function App() {
 
   return (
     <>
-    Hello world
+    <Feature/>
     </>
   )
 }
