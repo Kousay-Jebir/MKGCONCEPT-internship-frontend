@@ -4,22 +4,9 @@ import FeaturCard from "./FeatureCard";
 import featureIcon from "../../assets/featureVector.svg"
 import FeatureVideo from "./FeatureVideo";
 import { useEffect,useState } from "react";
-
+import { useIsMobile } from "../../hooks/useMobile";
 export default function Feature(){
-
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth < 768);
-        };
-
-        window.addEventListener("resize", handleResize);
-
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
-    }, []);
+    const isMobile = useIsMobile()
     return(
         <section style={{
             display:'flex',

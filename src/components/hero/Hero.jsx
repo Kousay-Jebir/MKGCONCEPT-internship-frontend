@@ -3,21 +3,9 @@ import theme from "../../theme";
 import Box from "../utility/Box";
 import HeroButton from "./HeroButton";
 import computerScreenImage from "/src/assets/laptop.svg"
-
+import { useIsMobile } from "../../hooks/useMobile";
 export default function Hero(){
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth < 768);
-        };
-
-        window.addEventListener("resize", handleResize);
-
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
-    }, []);
+    const isMobile = useIsMobile()
     return(
         <Box styles={{
             display: isMobile? 'block':'flex',

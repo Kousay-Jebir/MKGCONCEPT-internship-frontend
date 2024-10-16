@@ -16,18 +16,21 @@ import ContactInformation from "./components/contact/ContactInformation"
 import FeatureVideo from "./components/features/FeatureVideo"
 import Header from "./components/header/Header"
 import Footer from "./components/footer/Footer"
+import { MobileProvider } from "./context/MobileContext"
 function App() {
 
   return (
-    <>
-    <Header />
-    <Feature />
-    <Hero />
-    <Newsletter />
-    <Pricing />
-    <Contact />
-    <Footer/>
-    </>
+    <MobileProvider>
+      <>
+      <Header />
+      <Feature />
+      <Hero />
+      <Newsletter />
+      <Pricing />
+      <Contact />
+      <Footer/>
+      </>
+    </MobileProvider>
   )
 }
 

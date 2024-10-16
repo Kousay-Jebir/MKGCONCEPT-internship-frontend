@@ -2,21 +2,10 @@ import React, { useState, useEffect } from "react";
 import illustration from '../../assets/newsletter.svg'
 import theme from '../../theme'
 import NewsLetterForm from './NewsletterForm'
+import { useIsMobile } from "../../hooks/useMobile";
 export default function Newsletter(){
 
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth < 768);
-        };
-
-        window.addEventListener("resize", handleResize);
-
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
-    }, []);
+    const isMobile = useIsMobile()
 
     const additionalContentForMobile =
     <div className="newsletter-header" style={{fontWeight:theme.typography.fontWeight.regular,textAlign:'center',display:'flex',flexDirection:'column',alignItems:'center',padding:'2em'}}>

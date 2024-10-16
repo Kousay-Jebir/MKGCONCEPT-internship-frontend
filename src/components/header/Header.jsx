@@ -3,22 +3,11 @@ import "./header.css"
 import { useEffect,useState } from "react";
 import NavBar from "./NavBar";
 import theme from "../../theme";
+import { useIsMobile } from "../../hooks/useMobile";
 
 export default function Header(){
 
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth < 768);
-        };
-
-        window.addEventListener("resize", handleResize);
-
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
-    }, []);
+    const isMobile = useIsMobile()
 
     const HeaderTag = isMobile? 'h2':'h1'
 
