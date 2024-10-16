@@ -30,16 +30,16 @@ export default function Newsletter(){
         <div style={{
             display:'flex',
             alignItems:'center',
-            justifyContent:'center'
+            justifyContent:'center',
         }}>
             { isMobile? null :<div><img style={{width:'75%',height:'75%'}} src={illustration} alt="" /></div>}
             <div>
                 <div>
-                    <h3>At your fingertips</h3>
+                    <h3 style={{textAlign:isMobile? 'center':'initial'}}>At your fingertips</h3>
                    { isMobile? additionalContentForMobile :  <h2 style={{fontWeight:theme.typography.fontWeight.regular}}>Lorem, ipsum dolor.</h2>}
                 </div>
                 { isMobile?  <div><img style={{width:'75%',height:'75%'}} src={illustration} alt="" /></div>:null}
-                <div>
+                <div style={{padding:'3em'}}>
                     <h3>Subscribe to our Newsletter</h3>
                     <p>Available exclusivery on Logoland</p>
 

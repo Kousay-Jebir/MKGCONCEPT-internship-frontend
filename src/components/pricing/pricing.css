@@ -15,3 +15,7 @@
 .price-header * {
     color: white;
 }
+
+.price-header {
+    padding-top: 5em;
+}

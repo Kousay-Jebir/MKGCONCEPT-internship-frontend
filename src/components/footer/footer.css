@@ -57,7 +57,7 @@ footer h2 {
 
 @media (max-width: 500px) {
     footer{
-        padding: 0;
+        padding:1.5em 0;
         display: block;
         text-align: center;
     }  

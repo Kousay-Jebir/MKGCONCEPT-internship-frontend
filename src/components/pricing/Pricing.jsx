@@ -15,7 +15,8 @@ export default function Pricing(){
             <div style={{
                 display:'grid',
                 gap:'1em',
-                gridTemplateColumns: 'repeat( auto-fit, minmax(200px, 1fr)'
+                gridTemplateColumns: 'repeat( auto-fit, minmax(200px, 1fr)',
+                paddingBlock:'2.5em'
             }}>
                 <PricingCard pricingFeatures={[
       'Pricing Feature',
