@@ -15,6 +15,7 @@ import Contact from "./components/contact/Contact"
 import ContactInformation from "./components/contact/ContactInformation"
 import FeatureVideo from "./components/features/FeatureVideo"
 import Header from "./components/header/Header"
+import Footer from "./components/footer/Footer"
 function App() {
 
   return (
@@ -25,6 +26,7 @@ function App() {
     <Newsletter />
     <Pricing />
     <Contact />
+    <Footer/>
     </>
   )
 }
